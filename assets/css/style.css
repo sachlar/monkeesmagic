@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* special padding margin text start */
+
+html body {
+    height: 100%
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+/* special padding margin text end */
+
+/* header and navigation section starts here */
+
+header {
+    margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+    text-align: center;
+}
+
+#nav li {
+    font-size: 20px;
+    /*padding: 10px 10px 10px 10px;*/
+    padding: 0px 10px 0px 10px;
+
+}
+
+.menuitem {
+    height: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #999999;
+    height: 120px;
+}
+
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #999999;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.menuitem span:hover {
+    border-bottom: 3px solid red;
+}
+
+/* header and navigation section ends here */
+
+/* index page graphic start */
+
+.bg-image {
+    background-attachment: fixed;
+    background-image: url("../images/themonkeyguitarimage.svg");
+    background-position: center;
+    background-size: auto auto;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto auto;
+    -o-background-size: auto auto;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    height: 65vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+/* index page graphic ends */
+
+/* footer section starts here */
+
+footer {
+    /*background-color: #525252;*/
+    color: #fafafa;
+    min-height: 120px;
+    text-align: center;
+    margin: 0;
+    margin-top: 27px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 72px;
+    height: 72px;
+    padding: 30px 0;
+    border-radius: 50%;
+    margin: 0 0 0 20px;
+    font-size: 40px;
+    line-height: 14px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: red;
+}
