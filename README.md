@@ -40,20 +40,24 @@ The site needs to have a clear, clean modern feel to draw in new curious fans bu
 
 
 WIREFRAMES & MOCK UPS GO HERE
+put the mock up ppt/pdf into github and paste the link here
 
 ## FEATURES
 
 Clean and clear layout
-minimal spalshes of bright colour (chose red to contract nicely with black and whit tones)
+minimal spalshes of bright colour (chose red to contract nicely with black and white tones)
 Good imagery 
 Good navigation
-Music player
 Video player
 Picture gallery
 BIO's 
-Upcoming events
 Contact page 
 Social media links
+
+FEATURES not implemented yet: 
+the Music player, believe I need more js knowledge to get this working
+Submit on the contact page needs the alert adding
+
 
 ## TECHNOLOGIES USED
 
@@ -61,11 +65,20 @@ We use HTML and CSS mainly to implement the site
 Framework is BOOTSTRAP
 ICONs from FONTAWESOME
 FONTs from GOOGLE FONTs
+JS for the music player but have not got this feature working
 
 ## TESTING
 
 Test each page or section clicking through from each page to another
 Test each function of each page
+index.html - checked click through of all links and multi browser checks chrome & safari
+bio.html - checked click through of all links and multi browser checks chrome & safari
+music.html - checked click through of all links and multi browser checks chrome & safari, music player feature not implemented
+videos.html - checked click through of all links and multi browser checks chrome & safari, checked player controls
+photos.html - checked click through of all links and multi browser checks chrome & safari, checked carousel controls
+contact.html - checked click through of all links and multi browser checks chrome & safari, not implementedalert on submit button yet
+checked the on mouseover of all underlined navigation change to red
+checked the mouseover of all social media links change to red
 
 ## DEPLOYMENT
 
@@ -81,6 +94,8 @@ existing monkees.com website
 bandzoogle.com ideas and inspiration for rock websites
 awwwards.com for general design inspiration
 https://tympanus.net/codrops/ for ideas and tips
+https://www.script-tutorials.com/html5-audio-player-with-playlist/comment-page-2/ went here to find example code for a html music player.
+quite a lot of javascript beyond my knowledge yet so haven't got this feature working.
 
 ### CONTENT 
 
@@ -101,6 +116,8 @@ bandzoogle.com ideas and inspiration for rock websites
 awwwards.com for general design inspiration
 https://tympanus.net/codrops/ for ideas and tips
 code institute course content and student example projects helped me decide on the clean simple site style
+https://www.script-tutorials.com/html5-audio-player-with-playlist/comment-page-2/ went here to find example code for a html music player.
+quite a lot of javascript beyond my knowledge yet so haven't got this feature working.
 
 # GIT
 
@@ -113,7 +130,10 @@ git add contact.html
 git commit -m "contact page added included styled contact form"
 git add bio.html
 git commit -m "added bio page"
-
+git add * (add the remaining files and folders)
+git commit -m "added images, video, styling, contact(html), music(html), photos(html), videos(html) and README.md"
+git remote add origin https://github.com/sachlar/monkeesmagic.git
+git push origin master
 
 # FOLDER STRUCTURE
 
@@ -125,6 +145,8 @@ monkeymagic
             style.css 
         images folder
             images.png or images.svg (converted all png or jpg to svg)
+        js folder
+            javascript 
     index.html
     bio.html
     music.html
