@@ -1,4 +1,4 @@
-# monkeymagic
+## monkeymagic
 
 The monkeymagic website project is a static front end only website for legendary
 rock band "The Monkeys". The band was born in the 1960's, and have 50 years of 
@@ -144,7 +144,7 @@ monkeymagic
         css folder
             style.css 
         images folder
-            images.png or images.svg (converted all png or jpg to svg)
+            images.png 
         js folder
             javascript 
     index.html
@@ -154,4 +154,21 @@ monkeymagic
     photos.html
     contact.html
 
+## TO DO 
+host on github pages
+
+Navigation has to become a burger so its responsive? Bootstrap have this.
+
+check for relative and absolute path issues
+implement alert on the submit of contact form
+
+HTML5 native music player controls
+
+Monkees facebook page open page new window
+Monkees twitter page open page new window
+Monkees instagram page open page new window
+
+Check for typos
+
+Check responsive 
 
